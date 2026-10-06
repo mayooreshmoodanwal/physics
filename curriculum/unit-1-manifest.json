@@ -1,0 +1,3100 @@
+{
+  "schema_version": "2.0",
+  "scope": "Unit I only",
+  "source_ids": {
+    "CBSE_SYLLABUS": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Physics_SecP2_2026-27.pdf",
+    "NCERT_CH1": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+    "NCERT_CH2": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+    "NCERT_EXCLUSIONS": "https://ncert.nic.in/pdf/BookletClass12.pdf",
+    "CBSE_SQP": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Physics-SQP.pdf",
+    "CBSE_MS": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Physics-MS.pdf"
+  },
+  "coverage_rule": "Authored means the referenced teaching and assessment content exists. Verified and published require human physics-editor review. A learner checkpoint records automatic question checks and self-reviewed written work, not guaranteed exam mastery.",
+  "items": [
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-01",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Electric charges and signs",
+      "sub_concepts": [
+        "charge as property",
+        "positive and negative",
+        "interaction"
+      ],
+      "treatment_level": "conceptual",
+      "ncert_section": "1.2, 1.4",
+      "prerequisites": [],
+      "required_mathematics": "signed quantities",
+      "recommended_visual": "charge pair with +/− glyphs",
+      "possible_simulation": "charge pair with +/− glyphs",
+      "graph_requirement": null,
+      "diagram_requirement": "charge-sign and attraction/repulsion diagram",
+      "formulas": [],
+      "common_misconception": "A neutral object has no charges at all.",
+      "board_question_possibility": "Explain sign without treating charge as a substance",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "units"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "01",
+        "ncert_section": "1.2–1.4",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/01/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "charge"
+        },
+        "formulas": [
+          {
+            "id": "U1-01-formula-1",
+            "expression": "q = ne",
+            "symbols_units": "e = 1.6 × 10⁻¹⁹ C; n is a signed integer.",
+            "conditions": "For the net charge on an ordinary body.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-01-formula-2",
+            "expression": "Number of transferred electrons = |q|/e",
+            "symbols_units": "Use the magnitude to count particles; use the sign to identify gain or loss.",
+            "conditions": "An electron itself has charge −e.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/01/0",
+        "worked_example": "design/unit-1-preview.html#lesson/01/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/01/2",
+        "board_task": "design/unit-1-preview.html#lesson/01/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/01/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-charge"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-02",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Conservation of charge",
+      "sub_concepts": [
+        "isolated system",
+        "transfer versus creation"
+      ],
+      "treatment_level": "reasoning",
+      "ncert_section": "1.4",
+      "prerequisites": [
+        "U1-C1-01"
+      ],
+      "required_mathematics": "addition of signed charge",
+      "recommended_visual": "before/after charge tally",
+      "possible_simulation": "before/after charge tally",
+      "graph_requirement": null,
+      "diagram_requirement": "two-object transfer diagram",
+      "formulas": [],
+      "common_misconception": "Charge is used up when it moves between objects.",
+      "board_question_possibility": "Charge is conserved during transfer",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "units"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "02",
+        "ncert_section": "1.4",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/02/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "conservation"
+        },
+        "formulas": [
+          {
+            "id": "U1-02-formula-1",
+            "expression": "Σq_before = Σq_after",
+            "symbols_units": "Σ means the algebraic sum over the chosen system. Unit: C.",
+            "conditions": "The system must exchange no net charge with its surroundings.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/02/0",
+        "worked_example": "design/unit-1-preview.html#lesson/02/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/02/2",
+        "board_task": "design/unit-1-preview.html#lesson/02/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/02/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-charge"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-03",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Coulomb's law between two point charges",
+      "sub_concepts": [
+        "magnitude",
+        "inverse-square dependence",
+        "like/unlike direction"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "1.5",
+      "prerequisites": [
+        "U1-C1-01"
+      ],
+      "required_mathematics": "squares; scientific notation; vectors",
+      "recommended_visual": "two-charge distance control",
+      "possible_simulation": "two-charge distance control",
+      "graph_requirement": "force versus distance, F∝1/r²",
+      "diagram_requirement": "line-of-centres force diagram",
+      "formulas": [
+        "F=k|q₁q₂|/r²",
+        "k=1/(4πε₀)"
+      ],
+      "common_misconception": "Coulomb force changes as 1/r rather than 1/r².",
+      "board_question_possibility": "Identify force magnitude and direction separately",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "units",
+        "inverse",
+        "vectors"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "03",
+        "ncert_section": "1.5",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/03/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "coulomb"
+        },
+        "formulas": [
+          {
+            "id": "U1-03-formula-1",
+            "expression": "F = k|q₁q₂|/r²",
+            "symbols_units": "q₁,q₂ in C; r in m; F in N. k = 1/(4πε₀).",
+            "conditions": "Magnitude in vacuum; signs determine attraction or repulsion.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-03-formula-2",
+            "expression": "F_on 2 = k q₁q₂ r̂₁₂/r²",
+            "symbols_units": "r̂₁₂ points from charge 1 to charge 2.",
+            "conditions": "Signed vector form; do not also take an absolute value.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": {
+          "renderer": "app/diagrams.js",
+          "key": "inverse-square"
+        },
+        "reasoning": "design/unit-1-preview.html#lesson/03/0",
+        "worked_example": "design/unit-1-preview.html#lesson/03/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/03/2",
+        "board_task": "design/unit-1-preview.html#lesson/03/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/03/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-charge"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-04",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Forces between multiple charges",
+      "sub_concepts": [
+        "force on a chosen charge from each other charge"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "1.6",
+      "prerequisites": [
+        "U1-C1-03"
+      ],
+      "required_mathematics": "vector components",
+      "recommended_visual": "three-charge force overlay",
+      "possible_simulation": "three-charge force overlay",
+      "graph_requirement": null,
+      "diagram_requirement": "labelled vector arrows",
+      "formulas": [
+        "F_net=ΣF_i"
+      ],
+      "common_misconception": "Force magnitudes from several charges may be added without direction.",
+      "board_question_possibility": "Find net force on one specified charge",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "vectors",
+        "units"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "04",
+        "ncert_section": "1.6",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/04/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "three-charges"
+        },
+        "formulas": [
+          {
+            "id": "U1-04-formula-1",
+            "expression": "F⃗_A = F⃗_AB + F⃗_AC + …",
+            "symbols_units": "F⃗_AB here means force on A due to B; state the convention.",
+            "conditions": "Every term must act on the same target charge.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/04/0",
+        "worked_example": "design/unit-1-preview.html#lesson/04/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/04/2",
+        "board_task": "design/unit-1-preview.html#lesson/04/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/04/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-charge"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-05",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Superposition principle",
+      "sub_concepts": [
+        "vector addition",
+        "each source contribution independent"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "1.6, 1.7",
+      "prerequisites": [
+        "U1-C1-04"
+      ],
+      "required_mathematics": "vectors; components",
+      "recommended_visual": "vector addition board",
+      "possible_simulation": "vector addition board",
+      "graph_requirement": null,
+      "diagram_requirement": "head-to-tail and component diagram",
+      "formulas": [
+        "F_net=ΣF_i",
+        "E_net=ΣE_i"
+      ],
+      "common_misconception": "Electric fields from different charges replace rather than add.",
+      "board_question_possibility": "Predict whether vector contributions reinforce or cancel",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "vectors",
+        "algebra"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "05",
+        "ncert_section": "1.6",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/05/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "vectors"
+        },
+        "formulas": [
+          {
+            "id": "U1-05-formula-1",
+            "expression": "F⃗_net = ΣF⃗ᵢ",
+            "symbols_units": "Add force components in a common coordinate system. Unit: N.",
+            "conditions": "The sources and observation position are specified.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-05-formula-2",
+            "expression": "|F⃗_net| = √(Fₓ² + Fᵧ²)",
+            "symbols_units": "Use the signs of components to select the angle’s quadrant.",
+            "conditions": "For perpendicular x and y axes.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/05/0",
+        "worked_example": "design/unit-1-preview.html#lesson/05/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/05/2",
+        "board_task": "design/unit-1-preview.html#lesson/05/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/05/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-charge"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-06",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Continuous charge distribution",
+      "sub_concepts": [
+        "line, surface and volume charge density at syllabus level"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "1.12",
+      "prerequisites": [
+        "U1-C1-01",
+        "U1-C1-05"
+      ],
+      "required_mathematics": "ratios; elementary summation",
+      "recommended_visual": "discrete-to-continuous visual",
+      "possible_simulation": "discrete-to-continuous visual",
+      "graph_requirement": null,
+      "diagram_requirement": "line/sheet/volume charge diagram",
+      "formulas": [
+        "λ=dq/dl",
+        "σ=dq/dA",
+        "ρ=dq/dV"
+      ],
+      "common_misconception": "A continuous distribution is a single point charge.",
+      "board_question_possibility": "Select a suitable charge-density description",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "units",
+        "integral"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "06",
+        "ncert_section": "1.12",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/06/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "density"
+        },
+        "formulas": [
+          {
+            "id": "U1-06-formula-1",
+            "expression": "dq = λ dl; dq = σ dA; dq = ρ d𝒱",
+            "symbols_units": "λ: C/m; σ: C/m²; ρ: C/m³. d𝒱 denotes a volume element, not potential.",
+            "conditions": "For nonuniform density, use the local value at each element.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-06-formula-2",
+            "expression": "F⃗ = kq₀∫(dq/r²) r̂",
+            "symbols_units": "q₀ is the target charge; r̂ points from each source element to it.",
+            "conditions": "Source and target must not coincide; add vector contributions.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/06/0",
+        "worked_example": "design/unit-1-preview.html#lesson/06/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/06/2",
+        "board_task": "design/unit-1-preview.html#lesson/06/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/06/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-gauss",
+          "long-gauss"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-07",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Electric field",
+      "sub_concepts": [
+        "test charge idea",
+        "force per unit positive test charge",
+        "direction"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "1.7",
+      "prerequisites": [
+        "U1-C1-03",
+        "U1-C1-05"
+      ],
+      "required_mathematics": "ratios; vectors",
+      "recommended_visual": "test-charge probe",
+      "possible_simulation": "test-charge probe",
+      "graph_requirement": null,
+      "diagram_requirement": "field arrow at a point",
+      "formulas": [
+        "E=F/q₀"
+      ],
+      "common_misconception": "The field direction is the force direction for a negative test charge.",
+      "board_question_possibility": "Distinguish field direction from force on a negative charge",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "vectors",
+        "units"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "07",
+        "ncert_section": "1.7",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/07/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "field"
+        },
+        "formulas": [
+          {
+            "id": "U1-07-formula-1",
+            "expression": "E⃗ = lim(q₀→0) F⃗/q₀",
+            "symbols_units": "Positive q₀ is a test charge. E is measured in N/C.",
+            "conditions": "The source arrangement should remain unperturbed.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-07-formula-2",
+            "expression": "F⃗ = qE⃗",
+            "symbols_units": "F in N; q in C; E in N/C.",
+            "conditions": "For negative q, force opposes the field.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/07/0",
+        "worked_example": "design/unit-1-preview.html#lesson/07/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/07/2",
+        "board_task": "design/unit-1-preview.html#lesson/07/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/07/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-charge"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-08",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Electric field due to a point charge",
+      "sub_concepts": [
+        "radial direction",
+        "inverse-square magnitude"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "1.7",
+      "prerequisites": [
+        "U1-C1-03",
+        "U1-C1-07"
+      ],
+      "required_mathematics": "inverse-square; vectors",
+      "recommended_visual": "field probe around source charge",
+      "possible_simulation": "field probe around source charge",
+      "graph_requirement": "E magnitude versus r",
+      "diagram_requirement": "radial vector diagram",
+      "formulas": [
+        "E=k|q|/r²",
+        "vector direction by sign"
+      ],
+      "common_misconception": "The field of a negative point charge points outward.",
+      "board_question_possibility": "Describe field at a chosen point",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "inverse",
+        "vectors"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "08",
+        "ncert_section": "1.7; 1.12",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/08/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "radial"
+        },
+        "formulas": [
+          {
+            "id": "U1-08-formula-1",
+            "expression": "E = k|Q|/r²; E⃗ = kQ r̂/r²",
+            "symbols_units": "Q in C; r in m; E in N/C.",
+            "conditions": "Vacuum point-charge model, r > 0.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-08-formula-2",
+            "expression": "E⃗_net = ΣE⃗ᵢ; E⃗ = k∫(dq/r²) r̂",
+            "symbols_units": "Use the charge densities introduced in topic 06. E has unit N/C.",
+            "conditions": "Sum signed vector contributions at one observation point.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": {
+          "renderer": "app/diagrams.js",
+          "key": "inverse-square"
+        },
+        "reasoning": "design/unit-1-preview.html#lesson/08/0",
+        "worked_example": "design/unit-1-preview.html#lesson/08/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/08/2",
+        "board_task": "design/unit-1-preview.html#lesson/08/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/08/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-charge"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-09",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Electric field lines",
+      "sub_concepts": [
+        "tangent direction",
+        "density as representation",
+        "no crossing"
+      ],
+      "treatment_level": "qualitative",
+      "ncert_section": "1.8",
+      "prerequisites": [
+        "U1-C1-07",
+        "U1-C1-08"
+      ],
+      "required_mathematics": "none",
+      "recommended_visual": "field-line and local-vector comparison",
+      "possible_simulation": "field-line and local-vector comparison",
+      "graph_requirement": null,
+      "diagram_requirement": "single-charge and two-charge field-line diagrams",
+      "formulas": [],
+      "common_misconception": "Field lines are physical strings or trajectories followed by charges.",
+      "board_question_possibility": "Explain why lines cannot cross",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "not applicable",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "vectors"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "09",
+        "ncert_section": "1.8",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/09/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "field-lines"
+        },
+        "formulas": [],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/09/0",
+        "worked_example": "design/unit-1-preview.html#lesson/09/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/09/2",
+        "board_task": "design/unit-1-preview.html#lesson/09/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/09/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-dipole"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-10",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Electric dipole and dipole moment",
+      "sub_concepts": [
+        "equal opposite charges",
+        "separation vector from − to +"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "1.10",
+      "prerequisites": [
+        "U1-C1-01",
+        "U1-C1-08"
+      ],
+      "required_mathematics": "vectors",
+      "recommended_visual": "rotatable dipole",
+      "possible_simulation": "rotatable dipole",
+      "graph_requirement": null,
+      "diagram_requirement": "dipole with p arrow from − to +",
+      "formulas": [
+        "p=q(2a) in NCERT notation"
+      ],
+      "common_misconception": "The electric dipole moment points from + to −.",
+      "board_question_possibility": "State direction and SI unit of dipole moment",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "vectors",
+        "units"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "10",
+        "ncert_section": "1.10",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/10/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "dipole"
+        },
+        "formulas": [
+          {
+            "id": "U1-10-formula-1",
+            "expression": "p⃗ = q(2a)p̂",
+            "symbols_units": "q is one charge magnitude; 2a is the full separation. Unit: C m.",
+            "conditions": "p̂ points from −q to +q. Do not use half-separation as the full separation.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/10/0",
+        "worked_example": "design/unit-1-preview.html#lesson/10/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/10/2",
+        "board_task": "design/unit-1-preview.html#lesson/10/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/10/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-dipole",
+          "long-dipole"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-11",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Electric field due to a dipole",
+      "sub_concepts": [
+        "axial and equatorial positions",
+        "orientation dependence"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "1.10",
+      "prerequisites": [
+        "U1-C1-05",
+        "U1-C1-08",
+        "U1-C1-10"
+      ],
+      "required_mathematics": "vectors; algebra",
+      "recommended_visual": "axial/equatorial probe",
+      "possible_simulation": "axial/equatorial probe",
+      "graph_requirement": "field magnitude versus distance where useful",
+      "diagram_requirement": "axial and equatorial diagrams",
+      "formulas": [
+        "NCERT dipole-field expressions with geometry"
+      ],
+      "common_misconception": "Dipole field has the same direction on axial and equatorial lines.",
+      "board_question_possibility": "Compare axial and equatorial field directions",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "vectors",
+        "algebra"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "11",
+        "ncert_section": "1.10.1",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/11/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "dipole-field"
+        },
+        "formulas": [
+          {
+            "id": "U1-11-formula-1",
+            "expression": "E_axial = 2kpr/(r²−a²)²",
+            "symbols_units": "Magnitude at an external axial point r > a; direction along p⃗.",
+            "conditions": "p = 2aq, r measured from the centre.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-11-formula-2",
+            "expression": "E_equatorial = kp/(r²+a²)³ᐟ²",
+            "symbols_units": "Magnitude on the equatorial plane; direction opposite p⃗.",
+            "conditions": "r measured from the centre.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-11-formula-3",
+            "expression": "For r ≫ a: E_axial ≈ 2kp/r³; E_equatorial ≈ kp/r³",
+            "symbols_units": "E in N/C, p in C m, r and a in m.",
+            "conditions": "These are far-field expressions for a finite dipole.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": {
+          "renderer": "app/diagrams.js",
+          "key": "dipole"
+        },
+        "reasoning": "design/unit-1-preview.html#lesson/11/0",
+        "worked_example": "design/unit-1-preview.html#lesson/11/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/11/2",
+        "board_task": "design/unit-1-preview.html#lesson/11/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/11/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-dipole",
+          "long-dipole"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-12",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Torque on dipole in uniform electric field",
+      "sub_concepts": [
+        "alignment",
+        "angle",
+        "restoring tendency"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "1.11",
+      "prerequisites": [
+        "U1-C1-10"
+      ],
+      "required_mathematics": "angles; vector product intuition",
+      "recommended_visual": "dipole rotation in uniform field",
+      "possible_simulation": "dipole rotation in uniform field",
+      "graph_requirement": "τ versus θ, optional",
+      "diagram_requirement": "uniform-field dipole diagram",
+      "formulas": [
+        "τ=pE sinθ"
+      ],
+      "common_misconception": "A dipole always has maximum torque when aligned with the field.",
+      "board_question_possibility": "Identify zero and maximum torque orientations",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "trig",
+        "vectors"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "12",
+        "ncert_section": "1.11",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/12/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "torque"
+        },
+        "formulas": [
+          {
+            "id": "U1-12-formula-1",
+            "expression": "τ⃗ = p⃗ × E⃗; |τ| = pE sin θ",
+            "symbols_units": "p: C m; E: N/C; τ: N m. θ is between p⃗ and E⃗.",
+            "conditions": "Uniform external field for the simple force-couple derivation.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": {
+          "renderer": "app/diagrams.js",
+          "key": "torque"
+        },
+        "reasoning": "design/unit-1-preview.html#lesson/12/0",
+        "worked_example": "design/unit-1-preview.html#lesson/12/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/12/2",
+        "board_task": "design/unit-1-preview.html#lesson/12/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/12/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-dipole",
+          "long-dipole"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-13",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Electric flux",
+      "sub_concepts": [
+        "area vector",
+        "orientation",
+        "sign",
+        "open and closed surfaces"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "1.9",
+      "prerequisites": [
+        "U1-C1-07"
+      ],
+      "required_mathematics": "cosine; area vectors",
+      "recommended_visual": "tiltable surface in uniform field",
+      "possible_simulation": "tiltable surface in uniform field",
+      "graph_requirement": "Φ versus θ",
+      "diagram_requirement": "surface-normal and field diagram",
+      "formulas": [
+        "Φ=E·A=EA cosθ for uniform field"
+      ],
+      "common_misconception": "A surface parallel to the field has maximum flux.",
+      "board_question_possibility": "Explain zero flux for E parallel to the surface",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "trig",
+        "integral"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "13",
+        "ncert_section": "1.9",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/13/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "flux"
+        },
+        "formulas": [
+          {
+            "id": "U1-13-formula-1",
+            "expression": "Φ = E⃗·A⃗ = EA cos θ",
+            "symbols_units": "E: N/C; A: m²; Φ: N m²/C (also V m).",
+            "conditions": "Uniform field over a plane surface.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-13-formula-2",
+            "expression": "Φ = ∫ E⃗·dA⃗",
+            "symbols_units": "The closed-surface form is ∮E⃗·dA⃗ with outward normals.",
+            "conditions": "Use the local field and local normal on every patch.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": {
+          "renderer": "app/diagrams.js",
+          "key": "flux"
+        },
+        "reasoning": "design/unit-1-preview.html#lesson/13/0",
+        "worked_example": "design/unit-1-preview.html#lesson/13/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/13/2",
+        "board_task": "design/unit-1-preview.html#lesson/13/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/13/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-gauss",
+          "case-surfaces",
+          "long-gauss",
+          "ar-field"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-14",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Gauss's theorem",
+      "sub_concepts": [
+        "net flux through closed surface",
+        "enclosed charge",
+        "symmetry"
+      ],
+      "treatment_level": "reasoning and application",
+      "ncert_section": "1.13",
+      "prerequisites": [
+        "U1-C1-13"
+      ],
+      "required_mathematics": "closed surfaces; proportionality",
+      "recommended_visual": "move charge inside/outside Gaussian surface",
+      "possible_simulation": "move charge inside/outside Gaussian surface",
+      "graph_requirement": null,
+      "diagram_requirement": "closed surface with outward normals",
+      "formulas": [
+        "∮E·dA=q_enclosed/ε₀"
+      ],
+      "common_misconception": "Flux depends on the size of a closed surface even with unchanged enclosed charge.",
+      "board_question_possibility": "Predict flux after resizing a closed surface",
+      "official_sample_question": "2026–27 SQP Q1",
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "integral"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "14",
+        "ncert_section": "1.13",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/14/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "gauss"
+        },
+        "formulas": [
+          {
+            "id": "U1-14-formula-1",
+            "expression": "∮ E⃗·dA⃗ = q_enclosed/ε₀",
+            "symbols_units": "Outward area normals; q is the net enclosed charge in C.",
+            "conditions": "Any closed surface; E⃗ includes all charges.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/14/0",
+        "worked_example": "design/unit-1-preview.html#lesson/14/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/14/2",
+        "board_task": "design/unit-1-preview.html#lesson/14/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/14/4",
+        "official_sample_questions": [
+          "Q1"
+        ],
+        "integrated_assessments": [
+          "case-gauss",
+          "case-surfaces",
+          "long-gauss",
+          "ar-field"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-15",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Field of infinitely long straight charged wire",
+      "sub_concepts": [
+        "cylindrical Gaussian surface",
+        "radial field"
+      ],
+      "treatment_level": "quantitative application",
+      "ncert_section": "1.14",
+      "prerequisites": [
+        "U1-C1-06",
+        "U1-C1-14"
+      ],
+      "required_mathematics": "surface area of cylinder",
+      "recommended_visual": "cylindrical Gaussian-surface reveal",
+      "possible_simulation": "cylindrical Gaussian-surface reveal",
+      "graph_requirement": "E versus r",
+      "diagram_requirement": "coaxial cylinder diagram",
+      "formulas": [
+        "E=λ/(2πε₀r) for radial magnitude"
+      ],
+      "common_misconception": "A Gaussian cylinder can use an arbitrary direction for the field.",
+      "board_question_possibility": "Choose symmetry and Gaussian surface",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "integral",
+        "vectors"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "15",
+        "ncert_section": "1.14.1",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/15/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "wire"
+        },
+        "formulas": [
+          {
+            "id": "U1-15-formula-1",
+            "expression": "E = |λ|/(2πε₀r)",
+            "symbols_units": "λ: C/m; r: perpendicular distance in m; E: N/C.",
+            "conditions": "Infinite uniformly charged wire in vacuum, outside the ideal line.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-15-formula-2",
+            "expression": "E⃗ = [λ/(2πε₀r)] r̂",
+            "symbols_units": "r̂ points radially away from the wire.",
+            "conditions": "The sign of λ determines direction.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": {
+          "renderer": "app/diagrams.js",
+          "key": "wire"
+        },
+        "reasoning": "design/unit-1-preview.html#lesson/15/0",
+        "worked_example": "design/unit-1-preview.html#lesson/15/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/15/2",
+        "board_task": "design/unit-1-preview.html#lesson/15/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/15/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-gauss",
+          "long-gauss"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-16",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Field of uniformly charged infinite plane sheet",
+      "sub_concepts": [
+        "pillbox surface",
+        "equal field on both sides"
+      ],
+      "treatment_level": "quantitative application",
+      "ncert_section": "1.14",
+      "prerequisites": [
+        "U1-C1-06",
+        "U1-C1-14"
+      ],
+      "required_mathematics": "area; symmetry",
+      "recommended_visual": "pillbox flux visual",
+      "possible_simulation": "pillbox flux visual",
+      "graph_requirement": "E versus distance, ideal sheet",
+      "diagram_requirement": "pillbox diagram",
+      "formulas": [
+        "E=σ/(2ε₀) magnitude"
+      ],
+      "common_misconception": "The ideal infinite sheet field decreases with distance.",
+      "board_question_possibility": "Explain why result is distance-independent in ideal model",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "integral"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "16",
+        "ncert_section": "1.14.2",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/16/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "sheet"
+        },
+        "formulas": [
+          {
+            "id": "U1-16-formula-1",
+            "expression": "E = |σ|/(2ε₀)",
+            "symbols_units": "σ: C/m²; E: N/C.",
+            "conditions": "Uniform infinite nonconducting plane sheet in vacuum.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": {
+          "renderer": "app/diagrams.js",
+          "key": "sheet"
+        },
+        "reasoning": "design/unit-1-preview.html#lesson/16/0",
+        "worked_example": "design/unit-1-preview.html#lesson/16/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/16/2",
+        "board_task": "design/unit-1-preview.html#lesson/16/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/16/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-surfaces"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C1-17",
+      "chapter": "1 — Electric Charges and Fields",
+      "concept": "Field of uniformly charged thin spherical shell",
+      "sub_concepts": [
+        "outside behaves as point charge",
+        "zero inside"
+      ],
+      "treatment_level": "quantitative application",
+      "ncert_section": "1.14",
+      "prerequisites": [
+        "U1-C1-08",
+        "U1-C1-14"
+      ],
+      "required_mathematics": "sphere area; piecewise graph",
+      "recommended_visual": "movable radial probe",
+      "possible_simulation": "movable radial probe",
+      "graph_requirement": "E versus r, inside and outside",
+      "diagram_requirement": "concentric Gaussian spheres",
+      "formulas": [
+        "E=0 (r<R)",
+        "E=kQ/r² (r>R)"
+      ],
+      "common_misconception": "The ideal thin shell has a nonzero field everywhere inside.",
+      "board_question_possibility": "State field inside and outside, with boundary caveat",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "integral"
+      ],
+      "content_source": {
+        "file": "content/chapter-1.js",
+        "id": "17",
+        "ncert_section": "1.14.3",
+        "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/17/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "shell"
+        },
+        "formulas": [
+          {
+            "id": "U1-17-formula-1",
+            "expression": "For r < R: E = 0",
+            "symbols_units": "R is shell radius; r is distance from its centre.",
+            "conditions": "Uniformly charged thin spherical shell.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-17-formula-2",
+            "expression": "For r > R: E⃗ = (kQ/r²) r̂",
+            "symbols_units": "E magnitude is k|Q|/r²; unit N/C.",
+            "conditions": "Radially outward for Q > 0, inward for Q < 0.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": {
+          "renderer": "app/diagrams.js",
+          "key": "shell"
+        },
+        "reasoning": "design/unit-1-preview.html#lesson/17/0",
+        "worked_example": "design/unit-1-preview.html#lesson/17/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/17/2",
+        "board_task": "design/unit-1-preview.html#lesson/17/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/17/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-surfaces"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-18",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Electric potential",
+      "sub_concepts": [
+        "potential energy per unit charge",
+        "scalar",
+        "reference"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "2.2",
+      "prerequisites": [
+        "U1-C1-07"
+      ],
+      "required_mathematics": "signed scalars; ratios",
+      "recommended_visual": "potential map with charge probe",
+      "possible_simulation": "potential map with charge probe",
+      "graph_requirement": "V versus r, positive/negative charge",
+      "diagram_requirement": "point and reference-level diagram",
+      "formulas": [
+        "V=U/q"
+      ],
+      "common_misconception": "Potential is a vector because electric field is a vector.",
+      "board_question_possibility": "Contrast scalar potential with vector field",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "work",
+        "units"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "18",
+        "ncert_section": "2.1–2.2",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/18/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "potential"
+        },
+        "formulas": [
+          {
+            "id": "U1-18-formula-1",
+            "expression": "V = U/q; U = qV",
+            "symbols_units": "V is in volts, where 1 V = 1 J/C. U in J, q in C.",
+            "conditions": "U is the interaction energy with a prescribed external field and the same reference.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/18/0",
+        "worked_example": "design/unit-1-preview.html#lesson/18/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/18/2",
+        "board_task": "design/unit-1-preview.html#lesson/18/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/18/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-potential"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-19",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Potential difference",
+      "sub_concepts": [
+        "work per unit charge",
+        "sign and reference points"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "2.2",
+      "prerequisites": [
+        "U1-C2-18"
+      ],
+      "required_mathematics": "signed difference",
+      "recommended_visual": "two-point potential comparison",
+      "possible_simulation": "two-point potential comparison",
+      "graph_requirement": "potential versus position",
+      "diagram_requirement": "A/B points on field diagram",
+      "formulas": [
+        "V_B−V_A=−W_field/q"
+      ],
+      "common_misconception": "A positive charge naturally moves toward higher electric potential.",
+      "board_question_possibility": "Find direction of decreasing potential",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "work"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "19",
+        "ncert_section": "2.2",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/19/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "work"
+        },
+        "formulas": [
+          {
+            "id": "U1-19-formula-1",
+            "expression": "ΔU = q(V_B−V_A)",
+            "symbols_units": "q in C; potential difference in V; energy and work in J.",
+            "conditions": "For the same charge and external electrostatic potential.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-19-formula-2",
+            "expression": "W_field = −qΔV; W_ext,slow = qΔV",
+            "symbols_units": "The external-work relation assumes negligible change in kinetic energy.",
+            "conditions": "In general W_ext + W_field = ΔK if these are the only forces doing work.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/19/0",
+        "worked_example": "design/unit-1-preview.html#lesson/19/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/19/2",
+        "board_task": "design/unit-1-preview.html#lesson/19/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/19/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-potential",
+          "long-potential"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-20",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Potential due to a point charge",
+      "sub_concepts": [
+        "sign of potential",
+        "zero at infinity convention"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "2.3",
+      "prerequisites": [
+        "U1-C2-18",
+        "U1-C1-08"
+      ],
+      "required_mathematics": "inverse distance",
+      "recommended_visual": "radial potential probe",
+      "possible_simulation": "radial potential probe",
+      "graph_requirement": "V versus r",
+      "diagram_requirement": "point-charge radial map",
+      "formulas": [
+        "V=kq/r"
+      ],
+      "common_misconception": "Point-charge potential falls as 1/r².",
+      "board_question_possibility": "Distinguish 1/r potential from 1/r² field",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "work",
+        "integral"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "20",
+        "ncert_section": "2.3",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/20/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "potential"
+        },
+        "formulas": [
+          {
+            "id": "U1-20-formula-1",
+            "expression": "V(r) = kQ/r",
+            "symbols_units": "Q in C; r in m; V in volts; Q is signed.",
+            "conditions": "Vacuum point charge, r > 0, with V(∞) = 0.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": {
+          "renderer": "app/diagrams.js",
+          "key": "potential"
+        },
+        "reasoning": "design/unit-1-preview.html#lesson/20/0",
+        "worked_example": "design/unit-1-preview.html#lesson/20/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/20/2",
+        "board_task": "design/unit-1-preview.html#lesson/20/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/20/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-potential",
+          "long-potential"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-21",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Potential due to an electric dipole",
+      "sub_concepts": [
+        "position and orientation",
+        "scalar addition of two charges"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "2.4",
+      "prerequisites": [
+        "U1-C1-10",
+        "U1-C2-20"
+      ],
+      "required_mathematics": "scalar addition; geometry",
+      "recommended_visual": "dipole equipotential view",
+      "possible_simulation": "dipole equipotential view",
+      "graph_requirement": "V along axial line, optional",
+      "diagram_requirement": "dipole with observation point",
+      "formulas": [
+        "V=k(q/r₊−q/r₋)",
+        "far-field form where appropriate"
+      ],
+      "common_misconception": "Zero potential necessarily means zero field.",
+      "board_question_possibility": "Explain zero potential on perpendicular bisector for ideal equal charges",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "algebra",
+        "trig"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "21",
+        "ncert_section": "2.4",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/21/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "dipole-potential"
+        },
+        "formulas": [
+          {
+            "id": "U1-21-formula-1",
+            "expression": "V = kq(1/r₊ − 1/r₋)",
+            "symbols_units": "r₊ and r₋ are distances from positive and negative sources.",
+            "conditions": "Exact finite-dipole potential, excluding source positions.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-21-formula-2",
+            "expression": "V ≈ kp cos θ/r²",
+            "symbols_units": "p: C m; r: m; V: V. θ is measured from p⃗.",
+            "conditions": "Far-field approximation r ≫ a, with V(∞) = 0.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/21/0",
+        "worked_example": "design/unit-1-preview.html#lesson/21/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/21/2",
+        "board_task": "design/unit-1-preview.html#lesson/21/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/21/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-potential"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-22",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Potential due to a system of charges",
+      "sub_concepts": [
+        "algebraic sum of source potentials"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "2.5",
+      "prerequisites": [
+        "U1-C2-20"
+      ],
+      "required_mathematics": "signed scalar addition",
+      "recommended_visual": "multi-charge potential readout",
+      "possible_simulation": "multi-charge potential readout",
+      "graph_requirement": null,
+      "diagram_requirement": "observation point and source distances",
+      "formulas": [
+        "V=Σkq_i/r_i"
+      ],
+      "common_misconception": "Potential contributions require vector addition.",
+      "board_question_possibility": "Compare scalar potential addition with vector field addition",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "units",
+        "algebra"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "22",
+        "ncert_section": "2.5",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/22/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "potential-system"
+        },
+        "formulas": [
+          {
+            "id": "U1-22-formula-1",
+            "expression": "V(P) = Σ kqᵢ/rᵢ",
+            "symbols_units": "All rᵢ are measured from their respective source charges to P.",
+            "conditions": "Reference zero at infinity for localised sources.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-22-formula-2",
+            "expression": "W_ext,slow = qV(P)",
+            "symbols_units": "q is the newly introduced charge; V excludes its own contribution.",
+            "conditions": "Existing source charges remain fixed; start at infinity.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/22/0",
+        "worked_example": "design/unit-1-preview.html#lesson/22/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/22/2",
+        "board_task": "design/unit-1-preview.html#lesson/22/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/22/4",
+        "official_sample_questions": [
+          "Q19"
+        ],
+        "integrated_assessments": [
+          "case-potential"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-23",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Equipotential surfaces",
+      "sub_concepts": [
+        "equal potential",
+        "no work along surface",
+        "field perpendicular"
+      ],
+      "treatment_level": "reasoning",
+      "ncert_section": "2.6",
+      "prerequisites": [
+        "U1-C2-19",
+        "U1-C2-22"
+      ],
+      "required_mathematics": "contours; perpendicularity",
+      "recommended_visual": "field/equipotential overlay",
+      "possible_simulation": "field/equipotential overlay",
+      "graph_requirement": "potential versus position, linked",
+      "diagram_requirement": "contour and field-arrow diagram",
+      "formulas": [
+        "ΔW=−qΔV",
+        "E=−∇V as extension linked to SQP"
+      ],
+      "common_misconception": "Electric field is tangent rather than perpendicular to an equipotential surface.",
+      "board_question_possibility": "Explain why moving along equipotential costs no electrostatic work",
+      "official_sample_question": "2026–27 SQP Q31(B)",
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "work",
+        "slope"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "23",
+        "ncert_section": "2.6",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/23/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "equipotential"
+        },
+        "formulas": [
+          {
+            "id": "U1-23-formula-1",
+            "expression": "dV = −E⃗·dℓ⃗; Eₓ = −dV/dx",
+            "symbols_units": "E may be expressed in V/m, equivalent to N/C.",
+            "conditions": "Eₓ is the component along x; the full vector is E⃗ = −∇V.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-23-formula-2",
+            "expression": "W_field = −qΔV = 0 along an equipotential",
+            "symbols_units": "Potential need not be zero, only equal at the endpoints.",
+            "conditions": "An equipotential surface can lie in a nonzero field.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": {
+          "renderer": "app/diagrams.js",
+          "key": "potential-slope"
+        },
+        "reasoning": "design/unit-1-preview.html#lesson/23/0",
+        "worked_example": "design/unit-1-preview.html#lesson/23/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/23/2",
+        "board_task": "design/unit-1-preview.html#lesson/23/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/23/4",
+        "official_sample_questions": [
+          "Q31(B)"
+        ],
+        "integrated_assessments": [
+          "case-potential",
+          "long-potential",
+          "ar-conductor"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-24",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Potential energy of two point charges",
+      "sub_concepts": [
+        "work of assembly from infinity",
+        "sign"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "2.7",
+      "prerequisites": [
+        "U1-C2-20"
+      ],
+      "required_mathematics": "signed products",
+      "recommended_visual": "bring second charge from far away",
+      "possible_simulation": "bring second charge from far away",
+      "graph_requirement": "U versus separation",
+      "diagram_requirement": "two-charge separation diagram",
+      "formulas": [
+        "U=kq₁q₂/r"
+      ],
+      "common_misconception": "Potential energy of two unlike charges is positive when zero is at infinity.",
+      "board_question_possibility": "Decide sign for like and unlike charges",
+      "official_sample_question": "2026–27 SQP Q19",
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "work",
+        "units"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "24",
+        "ncert_section": "2.7–2.8.1",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/24/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "pair-energy"
+        },
+        "formulas": [
+          {
+            "id": "U1-24-formula-1",
+            "expression": "U_pair = kq₁q₂/r",
+            "symbols_units": "U: J; signed q values in C; separation in m.",
+            "conditions": "Zero at infinite separation, with fixed point charges.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-24-formula-2",
+            "expression": "U_system = Σ over i<j of kqᵢqⱼ/rᵢⱼ",
+            "symbols_units": "Each distinct pair appears once.",
+            "conditions": "If an external field is specified, add its interaction-energy terms separately.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": {
+          "renderer": "app/diagrams.js",
+          "key": "energy"
+        },
+        "reasoning": "design/unit-1-preview.html#lesson/24/0",
+        "worked_example": "design/unit-1-preview.html#lesson/24/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/24/2",
+        "board_task": "design/unit-1-preview.html#lesson/24/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/24/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-potential"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-25",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Potential energy of dipole in electrostatic field",
+      "sub_concepts": [
+        "orientation energy in uniform field",
+        "stable orientation"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "2.8",
+      "prerequisites": [
+        "U1-C1-10",
+        "U1-C1-12",
+        "U1-C2-18"
+      ],
+      "required_mathematics": "cosine",
+      "recommended_visual": "rotate dipole against field",
+      "possible_simulation": "rotate dipole against field",
+      "graph_requirement": "U versus θ",
+      "diagram_requirement": "dipole-field angle diagram",
+      "formulas": [
+        "U=−pE cosθ"
+      ],
+      "common_misconception": "A dipole aligned with the field has highest potential energy.",
+      "board_question_possibility": "Identify minimum-energy orientation",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "work",
+        "trig"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "25",
+        "ncert_section": "2.8.2",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/25/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "torque"
+        },
+        "formulas": [
+          {
+            "id": "U1-25-formula-1",
+            "expression": "U = −p⃗·E⃗ = −pE cos θ",
+            "symbols_units": "p: C m; E: N/C; U: J.",
+            "conditions": "Uniform external field; U = 0 at θ = 90°.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-25-formula-2",
+            "expression": "W_ext,slow = pE(cos θ₁ − cos θ₂)",
+            "symbols_units": "θ₁ initial, θ₂ final.",
+            "conditions": "No change in rotational kinetic energy during slow rotation.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": {
+          "renderer": "app/diagrams.js",
+          "key": "dipole-energy"
+        },
+        "reasoning": "design/unit-1-preview.html#lesson/25/0",
+        "worked_example": "design/unit-1-preview.html#lesson/25/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/25/2",
+        "board_task": "design/unit-1-preview.html#lesson/25/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/25/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-material"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-26",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Conductors and insulators; free and bound charges",
+      "sub_concepts": [
+        "charge mobility",
+        "electrostatic equilibrium",
+        "interior net field"
+      ],
+      "treatment_level": "qualitative and reasoning",
+      "ncert_section": "2.9",
+      "prerequisites": [
+        "U1-C1-01",
+        "U1-C1-07"
+      ],
+      "required_mathematics": "none",
+      "recommended_visual": "charge-redistribution sequence",
+      "possible_simulation": "charge-redistribution sequence",
+      "graph_requirement": null,
+      "diagram_requirement": "conductor in external field with induced surface charges",
+      "formulas": [
+        "E_inside=0 in electrostatic equilibrium"
+      ],
+      "common_misconception": "The electrostatic field inside a conductor is infinite or equal to the applied field.",
+      "board_question_possibility": "Explain cancellation of applied field inside conductor",
+      "official_sample_question": "2026–27 SQP Q16",
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "vectors",
+        "slope"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "26",
+        "ncert_section": "2.9",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/26/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "conductor"
+        },
+        "formulas": [
+          {
+            "id": "U1-26-formula-1",
+            "expression": "E_inside conductor = 0; V_conductor = constant",
+            "symbols_units": "These describe the total field and potential.",
+            "conditions": "Electrostatic equilibrium. Constant V need not be zero.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-26-formula-2",
+            "expression": "E_just outside = σ/ε₀, along the outward normal for σ > 0",
+            "symbols_units": "σ is local surface charge density in C/m².",
+            "conditions": "Conductor in vacuum; field just outside a smooth surface.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/26/0",
+        "worked_example": "design/unit-1-preview.html#lesson/26/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/26/2",
+        "board_task": "design/unit-1-preview.html#lesson/26/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/26/4",
+        "official_sample_questions": [
+          "Q16"
+        ],
+        "integrated_assessments": [
+          "case-material",
+          "long-potential",
+          "ar-conductor"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-27",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Dielectrics and electric polarisation",
+      "sub_concepts": [
+        "bound-charge displacement",
+        "net polarisation",
+        "distinction from conductor"
+      ],
+      "treatment_level": "qualitative",
+      "ncert_section": "2.10",
+      "prerequisites": [
+        "U1-C2-26"
+      ],
+      "required_mathematics": "vectors",
+      "recommended_visual": "dielectric dipoles between plates",
+      "possible_simulation": "dielectric dipoles between plates",
+      "graph_requirement": null,
+      "diagram_requirement": "polarised slab diagram",
+      "formulas": [],
+      "common_misconception": "Bound charges in a dielectric travel freely like electrons in a conductor.",
+      "board_question_possibility": "Explain why a dielectric can alter field without free-charge flow",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "vectors"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "27",
+        "ncert_section": "2.10",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/27/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "dielectric"
+        },
+        "formulas": [
+          {
+            "id": "U1-27-formula-1",
+            "expression": "K = ε/ε₀; E = E₀/K at fixed free charge",
+            "symbols_units": "K is dimensionless; ε is permittivity of the dielectric.",
+            "conditions": "Homogeneous linear dielectric completely fills the ideal plate gap.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-27-formula-2",
+            "expression": "P = dipole moment / volume",
+            "symbols_units": "Polarisation P has unit C/m².",
+            "conditions": "Macroscopic description of aligned or induced molecular dipoles.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/27/0",
+        "worked_example": "design/unit-1-preview.html#lesson/27/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/27/2",
+        "board_task": "design/unit-1-preview.html#lesson/27/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/27/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-material",
+          "case-dielectric"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-28",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Capacitors and capacitance",
+      "sub_concepts": [
+        "two conductors",
+        "equal opposite charge",
+        "Q/V definition",
+        "farad"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "2.11",
+      "prerequisites": [
+        "U1-C2-18",
+        "U1-C2-19",
+        "U1-C2-26"
+      ],
+      "required_mathematics": "ratios",
+      "recommended_visual": "plate pair with charge/voltage readout",
+      "possible_simulation": "plate pair with charge/voltage readout",
+      "graph_requirement": "Q versus V",
+      "diagram_requirement": "capacitor plate diagram",
+      "formulas": [
+        "C=Q/V"
+      ],
+      "common_misconception": "A capacitor always has more capacitance when more charge is placed on it.",
+      "board_question_possibility": "Explain that capacitance is geometry/material dependent",
+      "official_sample_question": "2026–27 SQP Q31(A)",
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "units",
+        "algebra"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "28",
+        "ncert_section": "2.11; 2.3",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/28/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "capacitor"
+        },
+        "formulas": [
+          {
+            "id": "U1-28-formula-1",
+            "expression": "C = Q/V; Q = CV",
+            "symbols_units": "C in F; Q in C; V in V. 1 μF = 10⁻⁶ F.",
+            "conditions": "Q is the magnitude on one plate, not the algebraic sum of plate charges.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-28-formula-2",
+            "expression": "C_sphere = 4πε₀R = R/k",
+            "symbols_units": "R is sphere radius in m.",
+            "conditions": "Isolated conducting sphere in vacuum, with potential zero at infinity.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": {
+          "renderer": "app/diagrams.js",
+          "key": "capacitance"
+        },
+        "reasoning": "design/unit-1-preview.html#lesson/28/0",
+        "worked_example": "design/unit-1-preview.html#lesson/28/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/28/2",
+        "board_task": "design/unit-1-preview.html#lesson/28/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/28/4",
+        "official_sample_questions": [
+          "Q31(A)"
+        ],
+        "integrated_assessments": [
+          "case-networks",
+          "case-dielectric",
+          "long-capacitor",
+          "ar-capacitor"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-29",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Capacitors in series",
+      "sub_concepts": [
+        "same charge",
+        "voltage adds",
+        "effective capacitance"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "2.14",
+      "prerequisites": [
+        "U1-C2-28"
+      ],
+      "required_mathematics": "reciprocals",
+      "recommended_visual": "series connection schematic",
+      "possible_simulation": "series connection schematic",
+      "graph_requirement": null,
+      "diagram_requirement": "series capacitor circuit",
+      "formulas": [
+        "1/C_eq=Σ1/C_i"
+      ],
+      "common_misconception": "Series capacitors all have the same voltage.",
+      "board_question_possibility": "Choose series for minimum equivalent capacitance",
+      "official_sample_question": "2026–27 SQP Q31(A)",
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "algebra"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "29",
+        "ncert_section": "2.14.1",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/29/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "series"
+        },
+        "formulas": [
+          {
+            "id": "U1-29-formula-1",
+            "expression": "1/C_eq = 1/C₁ + 1/C₂ + …",
+            "symbols_units": "Use the same capacitance unit in every term.",
+            "conditions": "Ordinary series connection with initially neutral intermediate nodes.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-29-formula-2",
+            "expression": "For two: C_eq = C₁C₂/(C₁ + C₂); V₁/V₂ = C₂/C₁",
+            "symbols_units": "Q = C_eq V is common in magnitude.",
+            "conditions": "Voltage division is inverse to capacitance.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/29/0",
+        "worked_example": "design/unit-1-preview.html#lesson/29/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/29/2",
+        "board_task": "design/unit-1-preview.html#lesson/29/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/29/4",
+        "official_sample_questions": [
+          "Q31(A)"
+        ],
+        "integrated_assessments": [
+          "case-networks"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-30",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Capacitors in parallel",
+      "sub_concepts": [
+        "same potential difference",
+        "charge adds"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "2.14",
+      "prerequisites": [
+        "U1-C2-28"
+      ],
+      "required_mathematics": "addition",
+      "recommended_visual": "parallel connection schematic",
+      "possible_simulation": "parallel connection schematic",
+      "graph_requirement": null,
+      "diagram_requirement": "parallel capacitor circuit",
+      "formulas": [
+        "C_eq=ΣC_i"
+      ],
+      "common_misconception": "Parallel capacitors all carry the same charge.",
+      "board_question_possibility": "Choose parallel for maximum equivalent capacitance",
+      "official_sample_question": "2026–27 SQP Q31(A)",
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "algebra"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "30",
+        "ncert_section": "2.14.2",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/30/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "parallel"
+        },
+        "formulas": [
+          {
+            "id": "U1-30-formula-1",
+            "expression": "C_eq = C₁ + C₂ + …",
+            "symbols_units": "Capacitances must use a common unit.",
+            "conditions": "All capacitors connected across the same pair of nodes.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-30-formula-2",
+            "expression": "Qᵢ = CᵢV; Q₁/Q₂ = C₁/C₂",
+            "symbols_units": "The total source charge is ΣQᵢ.",
+            "conditions": "Common V across parallel branches.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/30/0",
+        "worked_example": "design/unit-1-preview.html#lesson/30/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/30/2",
+        "board_task": "design/unit-1-preview.html#lesson/30/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/30/4",
+        "official_sample_questions": [
+          "Q31(A)"
+        ],
+        "integrated_assessments": [
+          "case-networks"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-31",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Parallel-plate capacitance without dielectric",
+      "sub_concepts": [
+        "plate area and separation",
+        "ideal large-plate approximation"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "2.12",
+      "prerequisites": [
+        "U1-C1-13",
+        "U1-C2-28"
+      ],
+      "required_mathematics": "proportionality; area",
+      "recommended_visual": "A and d controls",
+      "possible_simulation": "A and d controls",
+      "graph_requirement": "C versus A; C versus d",
+      "diagram_requirement": "plate geometry diagram",
+      "formulas": [
+        "C=ε₀A/d"
+      ],
+      "common_misconception": "Plate separation increases capacitance.",
+      "board_question_possibility": "Predict effects of area and spacing",
+      "official_sample_question": "2026–27 SQP Q31(A)",
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "units",
+        "algebra"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "31",
+        "ncert_section": "2.12",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/31/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "capacitor"
+        },
+        "formulas": [
+          {
+            "id": "U1-31-formula-1",
+            "expression": "E = Q/(ε₀A); V = Ed; C = ε₀A/d",
+            "symbols_units": "ε₀ ≈ 8.85 × 10⁻¹² F/m; A in m²; d in m.",
+            "conditions": "Vacuum or approximately air; broad parallel plates; edge effects neglected.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": {
+          "renderer": "app/diagrams.js",
+          "key": "plate-gap"
+        },
+        "reasoning": "design/unit-1-preview.html#lesson/31/0",
+        "worked_example": "design/unit-1-preview.html#lesson/31/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/31/2",
+        "board_task": "design/unit-1-preview.html#lesson/31/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/31/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-dielectric",
+          "long-capacitor",
+          "ar-capacitor"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-32",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Parallel-plate capacitance with dielectric",
+      "sub_concepts": [
+        "fully filled gap",
+        "relative permittivity",
+        "connected versus isolated cases"
+      ],
+      "treatment_level": "quantitative",
+      "ncert_section": "2.13",
+      "prerequisites": [
+        "U1-C2-27",
+        "U1-C2-31"
+      ],
+      "required_mathematics": "proportionality",
+      "recommended_visual": "insert dielectric into plates",
+      "possible_simulation": "insert dielectric into plates",
+      "graph_requirement": "C versus relative permittivity",
+      "diagram_requirement": "dielectric-filled plate diagram",
+      "formulas": [
+        "C=κε₀A/d for full filling"
+      ],
+      "common_misconception": "A dielectric must add free charge to increase capacitance.",
+      "board_question_possibility": "Predict capacitance change when dielectric is inserted",
+      "official_sample_question": "2026–27 SQP Q31(A)",
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "algebra",
+        "work"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "32",
+        "ncert_section": "2.13",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/32/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "dielectric"
+        },
+        "formulas": [
+          {
+            "id": "U1-32-formula-1",
+            "expression": "C_full = KC₀ = Kε₀A/d",
+            "symbols_units": "K is dimensionless.",
+            "conditions": "Dielectric fully fills the gap; geometry unchanged.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-32-formula-2",
+            "expression": "C_slab = ε₀A/(d − t + t/K)",
+            "symbols_units": "0 ≤ t ≤ d; slab covers the whole plate area.",
+            "conditions": "Remaining gap is vacuum/air; planar ideal geometry.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": null,
+        "reasoning": "design/unit-1-preview.html#lesson/32/0",
+        "worked_example": "design/unit-1-preview.html#lesson/32/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/32/2",
+        "board_task": "design/unit-1-preview.html#lesson/32/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/32/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-dielectric",
+          "long-capacitor"
+        ]
+      }
+    },
+    {
+      "academic_session": "2026-27",
+      "board": "CBSE",
+      "class": "XII",
+      "subject_code": "042",
+      "unit": "I — Electrostatics",
+      "syllabus_status": "current",
+      "source": "CBSE Physics 042 syllabus 2026-27, Class XII Unit I",
+      "source_version": "2026-27",
+      "last_verified_at": "2026-10-04",
+      "review_status": "authored; automated content/controller checks passed; human physics-editor review pending",
+      "status": "authored",
+      "syllabus_item_id": "U1-C2-33",
+      "chapter": "2 — Electrostatic Potential and Capacitance",
+      "concept": "Energy stored in capacitor",
+      "sub_concepts": [
+        "meaning",
+        "three equivalent formulae",
+        "application",
+        "no derivation"
+      ],
+      "treatment_level": "formula-only application; no derivation",
+      "ncert_section": "2.15",
+      "prerequisites": [
+        "U1-C2-24",
+        "U1-C2-28"
+      ],
+      "required_mathematics": "algebra; units",
+      "recommended_visual": "energy display linked to Q, V and C",
+      "possible_simulation": "energy display linked to Q, V and C",
+      "graph_requirement": "U versus V for fixed C, optional",
+      "diagram_requirement": "capacitor energy-state diagram",
+      "formulas": [
+        "U=½CV²=½QV=Q²/(2C)"
+      ],
+      "common_misconception": "The energy formula must be derived for the current CBSE examination.",
+      "board_question_possibility": "Select formula for known variables; explain dependence",
+      "official_sample_question": null,
+      "known_verified_pyqs": [],
+      "coverage": {
+        "lesson": "authored",
+        "visual": "authored",
+        "formula": "authored",
+        "derivation_or_reasoning": "authored",
+        "practice": "authored",
+        "pyq": "not ingested",
+        "mastery_check": "authored; limited checkpoint, no mastery prediction"
+      },
+      "foundation_bridges": [
+        "units",
+        "work",
+        "algebra"
+      ],
+      "content_source": {
+        "file": "content/chapter-2.js",
+        "id": "33",
+        "ncert_section": "2.15 · formulae and applications only",
+        "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf"
+      },
+      "component_refs": {
+        "lesson": "design/unit-1-preview.html#lesson/33/0",
+        "diagram": {
+          "renderer": "app/diagrams.js",
+          "key": "capacitor-energy"
+        },
+        "formulas": [
+          {
+            "id": "U1-33-formula-1",
+            "expression": "U = ½CV² = ½QV = Q²/(2C)",
+            "symbols_units": "U in J; C in F; Q in C; V in V.",
+            "conditions": "Ideal capacitor. Formula application only; no stored-energy derivation required.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          },
+          {
+            "id": "U1-33-formula-2",
+            "expression": "V_f = (C₁V₁ + C₂V₂)/(C₁ + C₂)",
+            "symbols_units": "Take signed initial voltages relative to the same connected terminals.",
+            "conditions": "Capacitors connected in parallel without an external source; charge conserved.",
+            "source": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+            "review_status": "human review pending"
+          }
+        ],
+        "graph": {
+          "renderer": "app/diagrams.js",
+          "key": "capacitor-energy"
+        },
+        "reasoning": "design/unit-1-preview.html#lesson/33/0",
+        "worked_example": "design/unit-1-preview.html#lesson/33/1",
+        "guided_and_independent": "design/unit-1-preview.html#lesson/33/2",
+        "board_task": "design/unit-1-preview.html#lesson/33/3",
+        "recall_and_check": "design/unit-1-preview.html#lesson/33/4",
+        "official_sample_questions": [],
+        "integrated_assessments": [
+          "case-networks",
+          "case-dielectric",
+          "long-capacitor"
+        ]
+      }
+    }
+  ],
+  "foundation_bridges": {
+    "units": {
+      "title": "Powers of ten and SI units",
+      "content": "content/course.js",
+      "check": "embedded recall question with answer"
+    },
+    "vectors": {
+      "title": "An arrow is a quantity with direction",
+      "content": "content/course.js",
+      "check": "embedded recall question with answer"
+    },
+    "inverse": {
+      "title": "What “inverse square” means",
+      "content": "content/course.js",
+      "check": "embedded recall question with answer"
+    },
+    "work": {
+      "title": "Work, potential energy and signs",
+      "content": "content/course.js",
+      "check": "embedded recall question with answer"
+    },
+    "trig": {
+      "title": "Angles, components and a surface normal",
+      "content": "content/course.js",
+      "check": "embedded recall question with answer"
+    },
+    "integral": {
+      "title": "A sum of many tiny contributions",
+      "content": "content/course.js",
+      "check": "embedded recall question with answer"
+    },
+    "slope": {
+      "title": "Read the slope, not just the height",
+      "content": "content/course.js",
+      "check": "embedded recall question with answer"
+    },
+    "algebra": {
+      "title": "Rearrange before substituting",
+      "content": "content/course.js",
+      "check": "embedded recall question with answer"
+    }
+  },
+  "content_version": "2.0",
+  "authored_at": "2026-10-07",
+  "summary": {
+    "mapped_items": 33,
+    "authored_lessons": 33,
+    "human_verified_lessons": 0,
+    "verified_pyqs": 0,
+    "official_sample_entries": 5,
+    "integrated_cases": 8
+  }
+}

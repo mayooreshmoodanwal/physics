@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-07",
+  "checks": 3473,
+  "lessons": 33,
+  "chapter1": 17,
+  "chapter2": 16,
+  "worked_examples": 33,
+  "guided_questions": 33,
+  "independent_problems": 33,
+  "board_tasks": 33,
+  "recall_prompts": 33,
+  "concept_mcqs": 33,
+  "case_studies": 8,
+  "long_integrated_questions": 4,
+  "assertion_reason_questions": 3,
+  "bank_questions": 81,
+  "rendered_routes": 206,
+  "chapter_tests": 2,
+  "numeric_guided_answers_recalculated": 22,
+  "human_review": "pending",
+  "browser_visual_review": "not performed; restricted local-file navigation",
+  "scope": "Unit I only; original authored teaching and practice based on official sources"
+}
